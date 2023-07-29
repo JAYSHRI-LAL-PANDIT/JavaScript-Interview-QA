@@ -1,0 +1,9 @@
+<script>
+  const arrNumber = [1, 9, 2, 192, 3];
+  const maxFunction = (arr) => {
+    return arr.reduce(function (previous, current) {
+      return previous > current ? previous : current;
+    });
+  };
+  console.warn(maxFunction(arrNumber));
+</script>
